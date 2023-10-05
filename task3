@@ -1,6 +1,6 @@
 # Отсортируйте словарь по значению в порядке возрастания и убывания.
-d = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
 
+d = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
 sorted_d = sorted(d.items(), key=lambda item: item[0])
 sorted_d1 = sorted(d.items(), key=lambda item: item[0],reverse=True)
 print(sorted_d)
