@@ -10,4 +10,4 @@ def convert(seconds):
     seconds %= 60
     print(f'{days}:{hours}:{minutes}:{seconds}')
 
-convert(8976241)
+convert(78425)
